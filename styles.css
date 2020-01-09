@@ -43,7 +43,7 @@ body {
   color: black;
   padding: 12px 10px;
   text-decoration: none;
-  display: inline-block;
+  display:block;
 }
 .dropdown:hover .drop-link {
   background-color: #00cdcd;
@@ -51,6 +51,7 @@ body {
 .dropdown:hover .drop-items {
   display: block;
 }
-.drop-item:hover .drop-link{
+.drop-item .link:hover{
+  color: #ffffff;
   background-color: #00cdcd;
 }
