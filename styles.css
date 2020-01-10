@@ -21,29 +21,29 @@ body {
 .nav-link:hover {
   border-bottom: 2px solid #ffffff;
 }
-.nav-items :nth-child(n){
-  margin-right: -4px;
-}
 .dropdown {
   position: relative;
-  display: inline-block;
 }
 .drop-items {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 100px;
+  min-width: 120px;
   box-shadow: 12px 10px #00cdcd;
   padding: 0px;
+  top: 35px;
+  bottom: auto;
+  left: auto;
+  right: auto;
 }
-.drop-items .drop-item{
+ul{
   list-style: none;
 }
 .drop-items .link{
-  color: black;
+  color: rgb(0, 0, 0);
   padding: 12px 10px;
   text-decoration: none;
-  display:block;
+  display: block;
 }
 .dropdown:hover .drop-link {
   background-color: #00cdcd;
